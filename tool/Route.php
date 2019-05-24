@@ -12,4 +12,5 @@
 return [
     '/Index' => '\application\Index->index|T',
     '/Login' => '\application\Index->login|F',
+    '/SIndex' => '\application\Server->index|F',
 ];

@@ -52,9 +52,32 @@ class Tool
     public static function verify_jwt_token($jwt_token)
     {
         $decoded = JWT::decode($jwt_token, self::$jwt_key, array('HS256'));
-        $arr = (array)$decoded;
+        $arr     = (array)$decoded;
         if ($arr['expire_time'] < time())
             return false;
         return $arr['data'];
+    }
+
+    /**
+     * 自动加载方法 可以加载Tool和application一级类文件
+     * @param $class
+     */
+    public static function autoload($class)
+    {
+        if (strpos($class, '\\') !== false) {
+            $class = explode('\\', $class)[1];
+        }
+        $classFile = __DIR__ . '/' . $class . '.php';
+        if (is_file($classFile) && !class_exists($class)) {
+            include_once $classFile;
+            return;
+        }
+
+        $classFile = __DIR__ . '/../application/' . $class . '.php';
+        if (is_file($classFile) && !class_exists($class)) {
+            include_once $classFile;
+            return;
+        }
+
     }
 }
