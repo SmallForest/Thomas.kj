@@ -19,13 +19,15 @@ $http->set([
     'worker_num' => 4,
 ]);
 $http->on('request', function ($request, $response) {
-    if ($request->server['request_uri'] == '/favicon.ico' ||$request->server['request_uri'] == '/undefined') {
+    if ($request->server['request_uri'] == '/favicon.ico' || $request->server['request_uri'] == '/undefined') {
         $response->status(404);
         $response->end();
     }
     //注册自动引入方法
     spl_autoload_register("ToolSpace\Tool::autoload");
     $obj = new Main();
+    //返回json格式的数据
+    $response->header('Content-type', 'application/json');
     $response->end($obj->do($request));
     unset($obj);
 });
