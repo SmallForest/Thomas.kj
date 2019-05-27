@@ -27,7 +27,7 @@ class Main
         //根据URI判断调用那个对象
         $obj_arr = $this->route();
         if (empty($obj_arr)) {
-            return '<h2>path error, check your Route</h2>';
+            return 'path error, check your Route';
         }
 
         $c            = $obj_arr[0];
