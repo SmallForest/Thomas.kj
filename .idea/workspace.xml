@@ -1,224 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05195972-6e0e-4b61-bae3-482bfd8f65d1" name="Default Changelist" comment="">
+    <list default="true" id="05195972-6e0e-4b61-bae3-482bfd8f65d1" name="Default Changelist" comment="删除HTML标签">
+      <change afterPath="$PROJECT_DIR$/application/model/user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/hassankhan/config/.scrutinizer.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/hassankhan/config/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/hassankhan/config/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/hassankhan/config/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/hassankhan/config/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/hassankhan/config/src/AbstractConfig.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/hassankhan/config/src/Config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/hassankhan/config/src/ConfigInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/hassankhan/config/src/ErrorException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/hassankhan/config/src/Exception.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/hassankhan/config/src/Exception/EmptyDirectoryException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/hassankhan/config/src/Exception/FileNotFoundException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/hassankhan/config/src/Exception/ParseException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/hassankhan/config/src/Exception/UnsupportedFormatException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/hassankhan/config/src/Exception/WriteException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/hassankhan/config/src/Parser/AbstractParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/hassankhan/config/src/Parser/Ini.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/hassankhan/config/src/Parser/Json.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/hassankhan/config/src/Parser/ParserInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/hassankhan/config/src/Parser/Php.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/hassankhan/config/src/Parser/Xml.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/hassankhan/config/src/Parser/Yaml.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/hassankhan/config/src/Writer/AbstractWriter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/hassankhan/config/src/Writer/Ini.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/hassankhan/config/src/Writer/Json.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/hassankhan/config/src/Writer/WriterInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/hassankhan/config/src/Writer/Xml.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/hassankhan/config/src/Writer/Yaml.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tool/Main.php" beforeDir="false" afterPath="$PROJECT_DIR$/tool/Main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/Base.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/Base.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/Index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/Server.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/Server.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/Medoo/Medoo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/php-jwt/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/php-jwt/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/php-jwt/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/php-jwt/src/BeforeValidException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/php-jwt/src/ExpiredException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/php-jwt/src/JWT.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/php-jwt/src/SignatureInvalidException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.php" beforeDir="false" afterPath="$PROJECT_DIR$/run.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/Main.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/Main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/Route.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/Route.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/Tool.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/Tool.php" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.48877805">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/application/Index.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="54">
-                  <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/tool/Main.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="675">
-                  <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
-                  <folding>
-                    <element signature="e#6#112#0#PHP" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/run.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-                  <folding>
-                    <element signature="e#114#137#0#PHP" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/application/Server.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="252">
-                  <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tool/Route.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="144">
-                  <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
-                  <folding>
-                    <element signature="e#6#112#0#PHP" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tool/Tool.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-807">
-                  <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../../../logs/php_error.log">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/README.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="72">
-                    <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-                  </first_editor>
-                  <second_editor />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/application/Base.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-                  <folding>
-                    <element signature="e#6#112#0#PHP" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>var_</find>
-      <find>jwt</find>
-      <find>path error, check your Route</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/library/Tool.php" />
-        <option value="$PROJECT_DIR$/tool/main.php" />
-        <option value="$PROJECT_DIR$/tool/a.c" />
-        <option value="$PROJECT_DIR$/a.c" />
-        <option value="$PROJECT_DIR$/a.dSYM/Contents/Resources/DWARF/a" />
-        <option value="$PROJECT_DIR$/tool/a.php" />
-        <option value="$PROJECT_DIR$/tool/Tool.php" />
-        <option value="$PROJECT_DIR$/tool/Route.php" />
-        <option value="$PROJECT_DIR$/application/Base.php" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/application/Index.php" />
-        <option value="$PROJECT_DIR$/tool/Main.php" />
-        <option value="$PROJECT_DIR$/../../../logs/php_error.log" />
-        <option value="$PROJECT_DIR$/run.php" />
-      </list>
-    </option>
-  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
-  </component>
+  <component name="ProjectId" id="1fOPKwNgJhMyCjX1MutJllGef40" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Thomas.kj.github" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Thomas.kj.github" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Thomas.kj.github" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Thomas.kj.github" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Thomas.kj.github" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Thomas.kj.github" type="462c0819:PsiDirectoryNode" />
-              <item name="library" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Thomas.kj.github" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Thomas.kj.github" type="462c0819:PsiDirectoryNode" />
-              <item name="tool" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/library" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/tool" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/library" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="run" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/run.php">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP7.1.12" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
       <method v="2" />
     </configuration>
   </component>
@@ -241,6 +128,17 @@
       <workItem from="1558590307557" duration="274000" />
       <workItem from="1558591344904" duration="4302000" />
       <workItem from="1558948868026" duration="707000" />
+      <workItem from="1558949939875" duration="1064000" />
+      <workItem from="1559091349581" duration="1569000" />
+      <workItem from="1559096648506" duration="1248000" />
+      <workItem from="1559111927232" duration="41000" />
+      <workItem from="1559179612067" duration="133000" />
+      <workItem from="1560241560707" duration="68000" />
+      <workItem from="1560243293613" duration="406000" />
+      <workItem from="1561449585330" duration="3000" />
+      <workItem from="1561453126532" duration="22000" />
+      <workItem from="1596086113890" duration="91000" />
+      <workItem from="1596086208261" duration="6964000" />
     </task>
     <task id="LOCAL-00001" summary="del">
       <created>1558516001264</created>
@@ -312,11 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1558590238316</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="删除HTML标签">
+      <created>1558949973230</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1558949973230</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31882000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -327,56 +229,15 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13948497" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31084338" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32891566" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Json Parser" order="4" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -395,6 +256,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="del" />
@@ -404,108 +266,54 @@
     <MESSAGE value="一静一动 出错了" />
     <MESSAGE value="动态调用类成功" />
     <MESSAGE value="添加工具栏" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加工具栏" />
+    <MESSAGE value="删除HTML标签" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除HTML标签" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/run" />
-    <entry file="file://$PROJECT_DIR$/library/SeasLog.php" />
-    <entry file="file://$PROJECT_DIR$/a" />
-    <entry file="file://$PROJECT_DIR$/a.c" />
-    <entry file="file://$PROJECT_DIR$/a.dSYM/Contents/Resources/DWARF/a" />
-    <entry file="file://$PROJECT_DIR$/library/Medoo/Medoo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tool/a.php" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="979" column="9" selection-start-line="979" selection-start-column="9" selection-end-line="979" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/php-jwt/src/ExpiredException.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/php-jwt/src/JWT.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tool/Route.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
-          <folding>
-            <element signature="e#6#112#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/Base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding>
-            <element signature="e#6#112#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="72">
-            <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tool/Tool.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-807">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/Server.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../logs/php_error.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tool/Main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
-          <folding>
-            <element signature="e#6#112#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding>
-            <element signature="e#114#137#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="218" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596086167804">
+      <screen x="68" y="23" width="1372" height="877" />
+    </state>
+    <state x="218" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/68.23.1372.877@68.23.1372.877" timestamp="1596086167804" />
+    <state x="299" y="22" key="CommitChangelistDialog2" timestamp="1596086573138">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="299" y="22" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1596086573138" />
+    <state width="1398" height="229" key="GridCell.Tab.0.bottom" timestamp="1596095117383">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="229" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596095117383" />
+    <state width="1330" height="216" key="GridCell.Tab.0.bottom/68.23.1372.877@68.23.1372.877" timestamp="1596086204180" />
+    <state width="1398" height="229" key="GridCell.Tab.0.center" timestamp="1596095117382">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="229" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1596095117382" />
+    <state width="1330" height="216" key="GridCell.Tab.0.center/68.23.1372.877@68.23.1372.877" timestamp="1596086204179" />
+    <state width="1398" height="229" key="GridCell.Tab.0.left" timestamp="1596095117381">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="229" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1596095117381" />
+    <state width="1330" height="216" key="GridCell.Tab.0.left/68.23.1372.877@68.23.1372.877" timestamp="1596086204179" />
+    <state width="1398" height="229" key="GridCell.Tab.0.right" timestamp="1596095117382">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="229" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1596095117382" />
+    <state width="1330" height="216" key="GridCell.Tab.0.right/68.23.1372.877@68.23.1372.877" timestamp="1596086204179" />
+    <state x="395" y="183" key="NewPhpClassDialog" timestamp="1596089226816">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="395" y="183" key="NewPhpClassDialog/0.0.1440.900@0.0.1440.900" timestamp="1596089226816" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1596091698488">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1596091698488" />
+    <state x="406" y="168" width="628" height="563" key="find.popup" timestamp="1596091727127">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="406" y="168" width="628" height="563" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1596091727127" />
+    <state x="455" y="187" width="598" height="548" key="find.popup/68.23.1372.877@68.23.1372.877" timestamp="1596086216308" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1596089578558">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1596089578558" />
   </component>
 </project>

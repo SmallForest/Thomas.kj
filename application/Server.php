@@ -8,7 +8,7 @@
 
 namespace application;
 
-use ToolSpace\Tool;
+use Tool\Tool;
 
 include_once __DIR__ . '/Base.php';
 

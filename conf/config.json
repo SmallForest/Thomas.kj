@@ -1,0 +1,13 @@
+{
+  "app_name": "Thomas.kj框架",
+  "db": {
+    "database_type": "mysql",
+    "database_name": "ceshi",
+    "host": "127.0.0.1",
+    "username": "root",
+    "password": "root",
+    "port": 8889,
+    "prefix": "",
+    "charset": "utf8mb4"
+  }
+}
