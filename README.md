@@ -7,7 +7,7 @@
 7. 数据库配置 application/Base.php中
 8. JWT token有效期以及key在Tool/Tool.php中查看
 9. 自动加载类文件，不过要注意文件夹名称和命名空间大小写一致
-10. Noodlehaus\Config处理conf/config.json配置文件。实际代码不要包含config.json防止泄露重要信息
+10. Noodlehaus\Config处理conf/config.json配置文件。实际代码不要提交config.json到代码仓库防止泄露重要信息
 11. 引入composer
 #### 增加新的application/中的类的步骤
 1. 比如在application中创建类Server.php
