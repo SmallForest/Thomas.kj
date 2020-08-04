@@ -49,8 +49,12 @@ class Main
         }
 
         $obj = new $c($this->get_params(), $r);
-
-        return $obj->$new_a();//这里不能直接写$obj->$obj_arr[1]();
+        try {
+            return $obj->$new_a(); //这里不能直接写$obj->$obj_arr[1]();
+        } catch (\Exception $e) { //捕获异常
+            echo "请不要使用exit die等阻塞方法".PHP_EOL;
+            return Tool::print_json(-1,"请不要使用exit die等阻塞方法");
+        }
     }
 
 

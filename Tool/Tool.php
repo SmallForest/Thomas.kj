@@ -66,7 +66,7 @@ class Tool
     {
         if (strpos($class, '\\') !== false) {
             //$class = explode('\\', $class)[1];
-            $class = str_replace("\\","/",$class);
+            $class = str_replace("\\", "/", $class);
         }
         $classFile = __DIR__ . '/../' . $class . '.php';
         if (is_file($classFile) && !class_exists($class)) {

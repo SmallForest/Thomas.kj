@@ -31,6 +31,6 @@ $http->on('request', function ($request, $response) {
     $response->end($obj->do($request));
     unset($obj);
 });
-echo '服务启动' . PHP_EOL . 'http://127.0.0.1:9501';
+echo '服务启动' . PHP_EOL . 'http://127.0.0.1:9501'.PHP_EOL;
 $http->start();
 

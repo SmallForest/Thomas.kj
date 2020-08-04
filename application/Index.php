@@ -20,7 +20,7 @@ class Index extends Base
     {
         //声明model
         $userModel = new user();
-        $user = $userModel->getUserInfo("*",['id' => $this->uid],true);
+        $user      = $userModel->getUserInfo("*", ['id' => $this->uid], true);
         return Tool::print_json(1, '获取成功', $user);
     }
 
@@ -35,14 +35,16 @@ class Index extends Base
         //声明model
         $userModel = new user();
         //构建SQL获取信息
-        $user = $userModel->getUserInfo('id',['username' => $username, 'password' => $pwd],true);
+        $user = $userModel->getUserInfo('id', ['username' => $username, 'password' => $pwd], true);
         if (empty($user)) {
             return Tool::print_json(-1, '账户或者密码错误！');
         }
         //假设登录成功并ID为1
         return Tool::print_json(1, '登录成功', ['token' => Tool::get_jwt_token($user['id'])]);
     }
-    public function Go(){
-        return Tool::print_json(1,"test",null);
+
+    public function Go()
+    {
+        return Tool::print_json(1, "success");
     }
 }
