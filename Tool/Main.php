@@ -27,7 +27,7 @@ class Main
         //根据URI判断调用那个对象
         $obj_arr = $this->route();
         if (empty($obj_arr)) {
-            return 'path error, check your Route';
+            return Tool::print_json(-1, 'path error, check your Route');
         }
 
         $c            = $obj_arr[0];
@@ -41,10 +41,10 @@ class Main
             try {
                 $r = Tool::verify_jwt_token($this->request->header['token']);
                 if (!$r) {
-                    return '失效的Token';
+                    return Tool::print_json(-1, '失效的Token');
                 }
             } catch (\Exception $e) {
-                return 'JWT ERROR!:' . $e->getMessage();
+                return Tool::print_json(-1, 'JWT ERROR!:' . $e->getMessage());
             }
         }
 
@@ -52,8 +52,8 @@ class Main
         try {
             return $obj->$new_a(); //这里不能直接写$obj->$obj_arr[1]();
         } catch (\Exception $e) { //捕获异常
-            echo "请不要使用exit die等阻塞方法".PHP_EOL;
-            return Tool::print_json(-1,"请不要使用exit die等阻塞方法");
+            echo "请不要使用exit die等阻塞方法" . PHP_EOL;
+            return Tool::print_json(-1, "请不要使用exit die等阻塞方法");
         }
     }
 

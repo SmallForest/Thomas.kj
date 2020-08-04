@@ -12,7 +12,6 @@ namespace application;
 use application\model\user;
 use Tool\Tool;
 
-include_once __DIR__ . '/Base.php';
 
 class Index extends Base
 {

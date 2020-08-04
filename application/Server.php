@@ -10,7 +10,6 @@ namespace application;
 
 use Tool\Tool;
 
-include_once __DIR__ . '/Base.php';
 
 class Server extends Base
 {
