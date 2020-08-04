@@ -28,7 +28,7 @@ $http->on('request', function ($request, $response) {
     $obj = new Main();
     //返回json格式的数据
     $response->header('Content-type', 'application/json');
-    $response->end($obj->do($request));
+    $response->end($obj->do_it($request));
     unset($obj);
 });
 echo '服务启动' . PHP_EOL . 'http://127.0.0.1:9501'.PHP_EOL;

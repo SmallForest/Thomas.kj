@@ -14,7 +14,7 @@ class Main
 {
     protected $request = null;
 
-    public function do($request)
+    public function do_it($request)
     {
         $this->request = $request;
 
