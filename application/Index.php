@@ -8,9 +8,10 @@
 
 namespace application;
 
-
 use application\model\user;
 use Tool\Tool;
+use Swoole\Coroutine as co;
+use Swoole\Coroutine\Channel;
 
 
 class Index extends Base
@@ -44,6 +45,19 @@ class Index extends Base
 
     public function Go()
     {
-        return Tool::print_json(1, "success");
+        $userModel = new user();
+        $info      = [];
+
+        //声明通道
+        $id = co::create(function () use ($userModel, &$info) {
+            $info = $userModel->getUserInfo('*', ['id' => 1], true);
+            var_dump($info);
+            var_dump("当前协程ID" . co::getuid());
+            var_dump("父级协程ID" . co::getPcid());
+        });
+        defer(function () {
+            var_dump("我执行完毕了！我是defer");
+        });
+        return Tool::print_json(1, "success", ['协程ID' => $id, 'info' => $info]);
     }
 }
