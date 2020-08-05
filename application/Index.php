@@ -48,7 +48,7 @@ class Index extends Base
         $userModel = new user();
         $info      = [];
 
-        //声明通道
+        //创建协程
         $id = co::create(function () use ($userModel, &$info) {
             $info = $userModel->getUserInfo('*', ['id' => 1], true);
             var_dump($info);

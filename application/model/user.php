@@ -5,8 +5,11 @@
  * Date: 2020/7/30
  * Time: 14:07
  */
+
 namespace application\model;
+
 use think\Model;
+
 class user extends Model
 {
     /**
