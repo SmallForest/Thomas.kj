@@ -66,7 +66,7 @@ class Index extends Base
      * 思路
      * 设置一个通道channel数量为1，一个协程向里面写入用户的数据比如是用户的ID
      * 另一个协程来处理通道的数据写入beanstalkd或者Redis中的队列
-     * 此例子我选用写入Redis的list，应为我本机没安装beanstalkd
+     * 此例子我选用写入Redis的list，因为我本机没安装beanstalkd
      */
     public function skill()
     {
