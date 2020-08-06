@@ -10,8 +10,9 @@
 //T 表示需要验证JWT
 //F 表示不需要验证JWT
 return [
-    '/Index' => '\application\Index->index|T',
-    '/Go' => '\application\Index->Go|F',
-    '/Login' => '\application\Index->login|F',
+    '/Index'  => '\application\Index->index|T',
+    '/Go'     => '\application\Index->Go|F',
+    '/Login'  => '\application\Index->login|F',
     '/SIndex' => '\application\Server->index|F',
+    '/skill'  => '\application\Index->skill|F',
 ];

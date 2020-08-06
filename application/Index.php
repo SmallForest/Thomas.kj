@@ -60,4 +60,46 @@ class Index extends Base
         });
         return Tool::print_json(1, "success", ['协程ID' => $id, 'info' => $info]);
     }
+
+    /**
+     * 通过swoole的chan和协程处理秒杀
+     * 思路
+     * 设置一个通道channel数量为1，一个协程向里面写入用户的数据比如是用户的ID
+     * 另一个协程来处理通道的数据写入beanstalkd或者Redis中的队列
+     * 此例子我选用写入Redis的list，应为我本机没安装beanstalkd
+     */
+    public function skill()
+    {
+        $chan  = new channel(1);
+        $redis = new \Redis();
+        $redis->connect('127.0.0.1', 6379);
+
+        $res = [];
+        //生成者协程
+        co::create(function () use ($chan, $redis, &$res) {
+            //查看chan中的数量
+            $num = $chan->length();
+            //当数量等于0并且库存还有的情况下的时候表名，通道为空可以写入数据
+            if ($num == 0 && $redis->get('stock')) {
+                $chan->push(['id' => rand(100, 999)]);
+            }
+            $res = [0, "抢购失败"];
+        });
+
+        //消费者协程
+        co::create(function () use ($chan, $redis, &$res) {
+            $data = $chan->pop();
+            if ($data) {
+                //此处默认每个人抢购1件，如果需要抢购多件可以在data中携带购买数量
+                //并写入到通道里面
+                $redis->set('stock', $redis->get('stock') - 1);
+                //写入Redis list 其他脚本进行订单处理之类的IO业务。此处不实现了
+                $redis->lPush("skill_swoole", json_encode($data));
+                $res = [1, "抢购成功"];
+            }
+        });
+
+        return Tool::print_json($res[0], $res[1]);
+
+    }
 }
