@@ -8,6 +8,7 @@
 
 namespace application;
 
+use http\Env\Request;
 use Noodlehaus\Config;
 use think\facade\Db;
 

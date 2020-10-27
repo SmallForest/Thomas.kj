@@ -11,6 +11,7 @@
 //F 表示不需要验证JWT
 return [
     '/Index'  => '\application\Index->index|T',
+    '/Upload'  => '\application\Index->upload|F',
     '/Go'     => '\application\Index->Go|F',
     '/Login'  => '\application\Index->login|F',
     '/SIndex' => '\application\Server->index|F',

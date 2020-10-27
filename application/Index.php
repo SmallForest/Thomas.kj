@@ -25,6 +25,20 @@ class Index extends Base
     }
 
     /**
+     * 上传的例子
+     * @return false|string
+     */
+    public function upload()
+    {
+        $r = file_put_contents("/Users/dada/Downloads/1.upload" . rand(1, 100) . ".png", file_get_contents($this->params["files"]["file"]["tmp_name"]));
+        if ($r > 0) {
+            return Tool::print_json(1, '上传成功');
+        } else {
+            return Tool::print_json(-1, '上传失败');
+        }
+    }
+
+    /**
      * 登录
      * @return string
      */

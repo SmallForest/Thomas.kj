@@ -101,6 +101,9 @@ class Main
                 $result = $this->request->post;
             }
         }
+        if (!empty($this->request->files)){
+            $result['files'] = $this->request->files;
+        }
         return $result;
     }
 }
