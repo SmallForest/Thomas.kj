@@ -1,7 +1,7 @@
 {
     "require": {
         "hassankhan/config": "^2.1",
-        "firebase/php-jwt": "^5.2",
+        "firebase/php-jwt": "^6.0",
         "topthink/think-orm": "^2.0",
         "ext-json": "*",
       "ext-http": "*"
